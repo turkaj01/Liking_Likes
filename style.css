@@ -1,0 +1,35 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    
+}
+.container {
+    width: 40%;
+    height: 140px;
+    border: 2px solid black;
+    margin-left: 5%;
+}
+.container p:last-child{
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.header p {
+    margin-left: 15%;
+}
+.header button {
+    margin-left: 5%;
+    width: 45px;
+    border-radius: 0px;
+    border-style: none;
+    box-shadow: 4px 4px black;
+    background-color: #ffd966;
+    height: 25px;
+}
+.header h1 {
+    font-weight: lighter;
+}
